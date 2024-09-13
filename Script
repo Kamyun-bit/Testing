@@ -33,7 +33,7 @@ Name = <string> - The name of the section.
 ]]
 OrionLib:MakeNotification({
 	Name = "SKIBIDI",
-	Content = "Notification content... what will it say??",
+	Content = "SIGMA MEWING",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
