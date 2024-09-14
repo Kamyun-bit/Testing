@@ -70,6 +70,17 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "Neuron (butuh key)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Python/main/Main.lua"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
