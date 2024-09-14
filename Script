@@ -7,58 +7,49 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 ]]
 local Section = Tab:AddSection({
 	Name = "main"
 })
-
 OrionLib:MakeNotification({
 	Name = "SKIBIDI",
 	Content = "SIGMA MEWING",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-
 Tab:AddButton({
 	Name = "Mspaint",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
   	end    
 })
-
 Tab:AddButton({
 	Name = "Ffj",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
   	end    
 })
-
 Tab:AddButton({
 	Name = "blacking X bob",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/main/Main"))()
   	end    
 })
-
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 Tab:AddButton({
 	Name = "Chaotic",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
   	end    
 })
-
 Tab:AddButton({
 	Name = "Ether hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/6w0s/_6w0s/main/Loader.lua"))()
   	end    
 })
-
 OrionLib:Init()
