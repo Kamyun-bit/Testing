@@ -114,6 +114,19 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "Flow",
+	Callback = function()
+      		
+script_key="CdcsmlUeHjtXxcsvAyrXABZSPvxWIUSr";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7b6f5590201ed24428b32616a42b9ec9.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 local Tab = Window:MakeTab({
 	Name = "Universal",
 	Icon = "rbxassetid://4483345998",
