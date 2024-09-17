@@ -193,7 +193,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 Tab:AddButton({
-	Name = "MINGO 🤡",
+	Name = "Badut",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Buaya",
 	Callback = function()
       		print("button pressed")
   	end    
