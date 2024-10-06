@@ -93,10 +93,11 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 Tab:AddButton({
-	Name = "Chaotic",
+	Name = "Allux",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
-  	end    
+      		
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iminreality/Allux/refs/heads/main/Blade_Ball.lua"))()
+        end    
 })
 
 --[[
@@ -104,9 +105,9 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 Tab:AddButton({
-	Name = "Ether hub",
+	Name = "Lunax",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/6w0s/_6w0s/main/Loader.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexisisback/Universall/refs/heads/main/Testblade.lua", true))()
   	end    
 })
 
